@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        .checkbox { display: none; }
+        .label {
+            display: inline-block;
+            width: 1000px;
+            height: 1000px;
+            background: url(http://www.dogster.com/wp-content/uploads/2015/05/doge.jpg);
+        }
+        .checkbox:checked + .label {
+            background: url(https://media1.giphy.com/media/2NHShAtc3FFUA/200_s.gif);
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" class="checkbox" id="checked">
+    <label class="label" for="checked"></label>
+</body>
+</html>
